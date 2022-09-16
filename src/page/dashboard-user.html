@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/button.css">
+    <link rel="stylesheet" href="../style/color.css">
+    <link rel="stylesheet" href="../style/font.css">
+    <link rel="stylesheet" href="../style/input.css">
+    <link rel="stylesheet" href="../style/margin.css">
+    <link rel="stylesheet" href="../style/flex.css">
+    <link rel="stylesheet" href="../style/modal.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/dashboard-user.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>Dashboard: Usuário</title>
+
+    <script src="https://kit.fontawesome.com/137dbdaa23.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="container">
+
+    <header class="header flex-row align-center justify-between padding-l-r">
+        <h1 class="title-0 c-grey-5 margin-t">Soft</h1>
+        <button data-logout="logout" class="button-default width-1 bg-primary-2 c-grey-5 font-weight-2">Sair</button>
+    </header>
+
+    <main>
+
+        <h2 class="title-2 text-center margin-t-2 paragraph">Informações do Usuário</h2>
+        <section class="section-user-logged flex-column justify-around border-3 margin-t">
+            <div class="flex-row justify-between">
+                <p class="text-4 paragraph">Nome:</p>
+                <span class="name-user-logged text-3 text-transform paragraph"></span>
+            </div>
+            <div class="flex-row justify-between">
+                <p class="text-4 paragraph">E-mail:</p>
+                <span class="email-user-logged text-3 paragraph"></span>
+            </div>
+            <div class="flex-row justify-between">
+                <p class="text-4 paragraph">Senioridade:</p>
+                <span class="level-user-logged text-3 text-transform paragraph"></span>
+            </div>
+            <button class="edit fa-solid fa-user-pen cursor-pointer"></button>
+        </section>
+
+
+        <h2 class="title-2 text-center margin-t-3 paragraph">Departamento da empresa</h2>
+        <section class="section-department margin-t">
+            <ul class="department-list flex-row justify-center"></ul>
+        </section>
+
+
+        <h2 class="title-2 text-center margin-t-3 paragraph">Colaboradores do seu departamento</h2>
+        <section class="section-users-department margin-t-2">
+            <ul class="users-department-list"></ul>
+        </section>
+
+    </main>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="../script/dashboard-user.js"></script>
+</body>
+
+</html>

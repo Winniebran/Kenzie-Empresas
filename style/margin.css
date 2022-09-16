@@ -1,0 +1,84 @@
+/* Margins */
+.margin-b {
+    margin-bottom: 25px;
+}
+
+.margin-t {
+    margin-top: 15px;
+}
+
+
+.margin-t-2 {
+    margin-top: 25px;
+}
+
+.margin-t-3 {
+    margin-top: 50px;
+}
+
+
+.margin-t-b {
+    margin: 16px 0;
+}
+
+.margin-l-1 {
+    margin-left: 35px;
+}
+
+.margin-l-2 {
+    margin-left: 10px;
+}
+
+.margin-r {
+    margin-right: 100px;
+}
+
+
+/* Paddings */
+.padding {
+    padding: 40px 20px;
+}
+
+.padding-2 {
+    padding: 5px;
+}
+
+.padding-l {
+    padding-left: 18px;
+}
+
+.padding-l-r {
+    padding: 0 20px;
+}
+
+.padding-t {
+    padding-top: 40px;
+}
+
+
+/* Widths */
+.width-1 {
+    width: 58px;
+}
+
+.width-2 {
+    width: 78px;
+}
+
+.width-3 {
+    width: 90%;
+}
+
+.width-4 {
+    width: 100px;
+}
+
+.width-5 {
+    width: 88%;
+}
+
+
+/* Gap */
+.gap-1 {
+    gap: 20px;
+}

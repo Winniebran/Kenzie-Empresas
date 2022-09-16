@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/style/global.css">
+    <link rel="stylesheet" href="./src/style/button.css">
+    <link rel="stylesheet" href="./src/style/color.css">
+    <link rel="stylesheet" href="./src/style/font.css">
+    <link rel="stylesheet" href="./src/style/input.css">
+    <link rel="stylesheet" href="./src/style/margin.css">
+    <link rel="stylesheet" href="./src/style/flex.css">
+    <link rel="stylesheet" href="./src/style/header.css">
+    <link rel="stylesheet" href="./src/style/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>Login</title>
+</head>
+
+<body class="container">
+    <header class="header flex-row align-center justify-between padding-l-r">
+        <h1 class="title-0 c-grey-5">Soft</h1>
+        <button data-company="company" class="button-default width-4 bg-primary-2 c-grey-5 font-weight-2">Empresas
+            Parceiras</button>
+    </header>
+
+    <main class="flex-column align-center padding-t">
+        <section class="flex-column align-center justify-between padding">
+            <h1 class="title-1 self-start">Login</h1>
+            <form class="flex-column align-center justify-around">
+                <input id="email-login" class="input-default" type="email" placeholder="Digite seu e-mail" required>
+                <input id="password-login" class="input-default" type="password" placeholder="Digite sua senha"
+                    required>
+                <button id="button-login"
+                    class="button-default bg-primary-1 font-weight-2 width-3 c-grey-5">Entrar</button>
+            </form>
+            <span class="text-1">Ainda não possui cadastro?</span>
+            <button data-register="register"
+                class="button-default font-weight-2 width-3 c-grey-1 bg-grey-5 border-1">cadastrar-se</button>
+        </section>
+    </main>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="./src/script/index.js"></script>
+</body>
+
+</html>

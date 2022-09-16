@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/button.css">
+    <link rel="stylesheet" href="../style/color.css">
+    <link rel="stylesheet" href="../style/font.css">
+    <link rel="stylesheet" href="../style/input.css">
+    <link rel="stylesheet" href="../style/margin.css">
+    <link rel="stylesheet" href="../style/flex.css">
+    <link rel="stylesheet" href="../style/modal.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>dashboard: admin</title>
+
+    <script src="https://kit.fontawesome.com/137dbdaa23.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="container">
+    <header class="header flex-row align-center justify-between padding-l-r">
+        <h1 class="title-0 c-grey-5 margin-t">Soft</h1>
+        <button data-logout="logout" class="button-default width-1 bg-primary-2 c-grey-5 font-weight-2">Sair</button>
+    </header>
+
+    <main>
+        <h2 class="title-2 text-center margin-t-2">Setores</h2>
+        <section class="sector-section">
+            <ul class="sector-list"></ul>
+        </section>
+
+        
+        <h2 class="title-2 text-center margin-t-2">Empresas Cadastradas</h2>
+        <section class="section-companies  margin-t">
+            <ul class="companies-list"></ul>
+        </section>
+
+        <section class="section-register-company">
+           <button data-register-company="register-company" class="button-default width-3 font-weight-2 bg-primary-2 c-grey-5 border-3">Cadastrar Empresa</button> 
+        </section>
+
+        
+        <h2 class="title-2 text-center margin-t-2"> Departamentos</h2>
+        <section class="section-all-departaments margin-t-2">
+            <ul class="all-departaments-list flex-row align-center"></ul>
+        </section>
+
+        <div class="button-department">
+            <section class="section-create-departament">
+                <button data-create-departament="create-departament" class="button-default width-5 font-weight-2 bg-primary-2 c-grey-5 border-3">Criar</button> 
+            </section>
+    
+            <section class="section-edit-departament">
+                <button data-edit-departament="edit-departament" class="button-default width-5 font-weight-2 bg-primary-2 c-grey-5 border-3">Editar</button> 
+            </section>
+    
+            <section class="section-delete-departament">
+                <button data-delete-departament="delete-departament" class="button-default width-5 font-weight-2 bg-primary-2 c-grey-5 border-3">Deletar</button> 
+            </section>
+        </div>
+
+
+        <h2 class="title-2 text-center margin-t-2">Funcionários Cadastrados</h2>
+        <section class="section-employees margin-t">
+            <ul class="employees-list"></ul>
+        </section>
+        <section class="section-delete-user margin-t-2">
+            <button data-delete-user="delete-user" class="button-default width-3 font-weight-2 bg-primary-2 c-grey-5 border-3 margin-b margin-t-2">Deletar Funcionário</button> 
+        </section>
+        
+    </main>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="../script/dashboard-adm.js"></script>
+</body>
+
+</html>

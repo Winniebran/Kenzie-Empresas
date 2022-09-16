@@ -1,0 +1,107 @@
+/* Modal Cadastro de Empresas */
+.modal-register-company {
+    position: absolute;
+    top: 0;
+    height: 140%;
+    width: 100%;
+    background-color: var(--color-transparency);
+}
+
+/* Modal Criação de Departamento */
+.modal-create-departament {
+    position: absolute;
+    top: 0;
+    height: 140%;
+    width: 100%;
+    background-color: var(--color-transparency);
+}
+
+/* Modal Contratar Colaborador */
+.modal-hire-employee {
+    position: absolute;
+    top: 0;
+    height: 140%;
+    width: 100%;
+    background-color: var(--color-transparency);
+}
+
+/* Modal editar Colaborador */
+.modal-edit-employee {
+    position: absolute;
+    top: 0;
+    height: 140%;
+    width: 100%;
+    background-color: var(--color-transparency);
+}
+
+/* Modal remover Departamento */
+.modal-delete-department {
+    position: absolute;
+    top: 0;
+    height: 140%;
+    width: 100%;
+    background-color: var(--color-transparency);
+}
+
+/* Modal editar Departamento */
+.modal-edit-department {
+    position: absolute;
+    top: 0;
+    height: 140%;
+    width: 100%;
+    background-color: var(--color-transparency);
+}
+
+/* Modal editar Departamento */
+.modal-delete-user{
+    position: absolute;
+    top: 0;
+    height: 140%;
+    width: 100%;
+    background-color: var(--color-transparency);
+}
+
+.modal-edit-user{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-transparency);
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media (min-width: 820px) {
+    .modal-register-company {
+        height: 160%;
+    }
+
+    .modal-create-departament {
+        height: 160%;
+    }
+
+    .modal-hire-employee {
+        height: 160%;
+    }
+
+    .modal-edit-employee {
+        height: 160%;
+    }
+
+    .modal-delete-department {
+        height: 160%;
+    }
+
+    .modal-edit-department {
+        height: 160%;
+    }
+
+    .modal-delete-user{
+        height: 160%;
+    }
+
+    
+}

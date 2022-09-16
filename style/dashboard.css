@@ -1,0 +1,247 @@
+main {
+    background-color: var(--color-grey-4);
+    width: 100%;
+    height: 130%;
+    position: relative;
+    z-index: -2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sector-section {
+    height: 5%;
+    width: 90%;
+    margin-top: 15px;
+    overflow-x: auto;
+}
+
+.sector-list{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: initial;
+    pointer-events: all;
+}
+
+.sector-item {
+    background-color: var(--color-primary-3);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+/* cadastro de empresa */
+.section-register-company{
+    width: 90%;
+    height: 5%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* listar empresas cadastradas */
+.section-companies {
+    width: 90%;
+    height: 22%;
+    overflow-y: auto;
+}
+
+.companies-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: initial;
+    pointer-events: all;
+}
+
+.company-item{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+.company-block{
+    width: 100%;
+}
+
+/* Carrossel de departamento dentro da empresa cadastrada */
+.select-departament {
+    width: 154px;
+    height: 12%;
+    overflow-x: auto;
+}
+
+.departament-list {
+    margin: 0;
+    pointer-events: all;
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    gap:15px;
+}
+
+.departament-item {
+    width: fit-content;
+    padding: 10px;
+    height: 100%;
+    background-color: var(--color-grey-3);
+    border-radius: 10%;
+}
+
+/* criação de departamento */
+
+.button-department {
+    width: 84%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+}
+
+.section-create-departament{
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* editar departamento */
+.section-edit-departament{
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* deletar departamento */
+.section-delete-departament{
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Listar todos os departamentos */
+.section-all-departaments {
+    height: 14%;
+    width: 90%;
+    margin-top: 25px;
+    overflow-x: auto;
+}
+
+.all-departaments-list{
+    gap: 20px;
+    height: 100%;
+    width: fit-content;
+}
+
+.all-departaments-item {
+    padding: 10px;
+    height: 100%;
+    width: 150px;
+}
+
+/* Listar todos os funcionários */
+.section-employees {
+    width: 90%;
+    height: 15%;
+    overflow-y: auto;
+}
+
+.employees-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: initial;
+    pointer-events: all;
+}
+
+.employees-item{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+.employees-block{
+    width: 150px;
+}
+
+/* Deletar Usuários*/
+.section-delete-user {
+    width: 90%;
+    height: 5%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 820px){
+
+    main {
+        height: 150%;
+        position: inherit;
+    }
+
+    .width-4 {
+        width: 16%;
+    }
+
+    .width-3{
+        width: 20%;
+    }
+
+    .margin-r {
+        margin-right: 50px;
+    } 
+
+    .sector-section {
+        height: 8%;
+    }
+
+    .sector-list {
+        justify-content: center;
+    }
+
+    .section-register-company {
+        height: 8%;
+    }
+
+    .section-companies{
+        height: 40%;
+    }
+
+    .company-item {
+        padding: 10px;
+    }
+
+    .select-departament {
+        height: 20%;
+    }
+
+    .button-department {
+        height: 8%;
+        width: 70%;
+    }
+
+    .section-all-departaments {
+        height: 25%;
+    }
+
+    .section-employees {
+        height: 30%;
+    }
+}

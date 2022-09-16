@@ -1,0 +1,15 @@
+.button-default {
+    height: 45px;
+    font-size: var(--text-4);
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button-modal {
+    height: 25px;
+    font-size: var(--text-4);
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

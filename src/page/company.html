@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/button.css">
+    <link rel="stylesheet" href="../style/color.css">
+    <link rel="stylesheet" href="../style/font.css">
+    <link rel="stylesheet" href="../style/input.css">
+    <link rel="stylesheet" href="../style/margin.css">
+    <link rel="stylesheet" href="../style/flex.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/company.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>Empresas Parceiras</title>
+</head>
+
+<body class="container">
+    <header class="header flex-row align-center justify-between padding-l-r">
+        <h1 class="title-0 c-grey-5">Soft</h1>
+        <button data-company="company" class="button-default width-4 bg-primary-2 c-grey-5 font-weight-2">Ir para o Login</button>
+    </header>
+
+    <main class="flex-column align-center padding-t gap-1">
+        <section class="section-select flex-row align-center justify-center">
+            <select id="select" class="text-3 border-2">
+                <option value="">Todos</option>
+            </select>
+        </section>
+
+        <section class="section-companies flex-column align-center">
+            <ul class="list-companies flex-column align-center margin-t-b gap-1"></ul>
+        </section>
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="../script/company.js"></script>
+</body>
+
+</html>
