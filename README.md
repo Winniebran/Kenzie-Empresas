@@ -5,7 +5,7 @@ Projeto: https://kenzie-empresas-i0tr91h1w-winniebran.vercel.app/
 
 Status: *em refatoração*
 
-API: https://github.com/Jardel-Kenzie/m2-api-empresas.git (é necessário clonar a API e iniciá-la para conseguir utilizar o site)
+API: https://github.com/Winniebran/Kenzie-Empresas-API.git (é necessário clonar a API e iniciá-la para conseguir utilizar o site)
 
 Descrição: 
 Página de E-commerce utilizando HTML, CSS e JS Vanilla (utilizando DOM, Eventos, POO, consumo de API's, Toastify, componentização, Mobile first e keyframes), onde é possível: 
