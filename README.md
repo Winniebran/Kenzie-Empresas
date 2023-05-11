@@ -61,5 +61,15 @@ Para executar o projeto localmente, siga as instruções abaixo:
 - E-mail: admin@mail.com
 - Senha: admin
 
+## Tecnologias utilizadas:
+- HTML;
+- CSS;
+- JavaScript Vanilla;
+- Keyframes;
+- Mobile First;
+- Toastify;
+- Consumo de API;
+- POO.
+
 ## Status do projeto
 O projeto está em fase de refatoração, buscando melhorias e implementações adicionais.
